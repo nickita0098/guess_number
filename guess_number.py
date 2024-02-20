@@ -5,8 +5,8 @@ while True:
     user_num = int(input("Введите число"))  
     if user_num < random_num:
         print ("Ваше число меньше того, что загадано")
-    elif user_num > random_num:
+    if user_num > random_num:
         print ("Ваше число больше того, что загадано")
-    else:
+    if user_num == random_num:
         print ("Отличная интуиция! Вы угадали число :)")
         break
